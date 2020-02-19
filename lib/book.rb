@@ -2,7 +2,7 @@ class Book
   attr_accessor :author, :page_count
   attr_reader :title
   attr_reader :genre
-  
+
 GENRES = []
 
 def genre=(genre)
